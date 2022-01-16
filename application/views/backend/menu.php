@@ -44,7 +44,7 @@
   <!-- Brand Logo -->
   <a href="<?php echo base_url('aspanel/home')?>" class="brand-link">
 
-    <center><span class="brand-text font-weight-light">WMP Panel Admin</span></center>
+    <center><span class="brand-text font-weight-light">CRUD Panel Admin</span></center>
   </a>
 
 <div class="sidebar">

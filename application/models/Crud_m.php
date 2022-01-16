@@ -114,13 +114,12 @@ class Crud_m extends CI_model{
           $this->db->limit($dari, $baris);
           return $this->db->get()->result();
   }
-  public function view_join_where_publish($table1,$table2,$field,$status,$status2,$order,$ordering,$baris,$dari)
+  public function view_join_where_publish($table1,$table2,$field,$status,$order,$ordering,$baris,$dari)
   {
             $this->db->select('*');
             $this->db->from($table1);
             $this->db->join($table2, $table1.'.'.$field.'='.$table2.'.'.$field);
             $this->db->where($status,'publish');
-            $this->db->where($status2,'NON PROMO');
             $this->db->order_by($order,$ordering);
             $this->db->limit($dari, $baris);
             return $this->db->get()->result();

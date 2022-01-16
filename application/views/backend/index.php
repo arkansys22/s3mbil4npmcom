@@ -28,15 +28,15 @@
           <input type="text" class="form-control" name="username" placeholder="Username">
           <div class="input-group-append">
             <div class="input-group-text">
-              <span class="fas fa-user"></span>
+              <a href="#"><i class="fas fa-user" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
-        <div class="input-group mb-3">
+        <div class="input-group mb-3"  id="show_hide_password" >
           <input type="password" class="form-control" name="password" placeholder="Password">
-          <div class="input-group-append">
+          <div class="input-group-addon">
             <div class="input-group-text">
-              <span class="fas fa-lock"></span>
+                <a href=""><i class="fas fa-eye-slash" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
