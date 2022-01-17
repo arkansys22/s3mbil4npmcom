@@ -102,7 +102,7 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="<?php echo base_url("produk/$post_new2->templates_judul_seo ") ?>"><img src="<?php echo base_url()?>assets/frontend/produk/<?php echo $post_new2->templates_gambar; ?>" height="1000px" width="1000px" alt=""></a>
+                                        <img src="<?php echo base_url()?>assets/frontend/produk/<?php echo $post_new2->templates_gambar; ?>" height="1000px" width="1000px" alt="">
                                         <div class="label_product">
                                           <?php
                                           if(empty($post_new2->templates_harga_diskon)) { ?>
@@ -116,11 +116,11 @@
                                     <div class="product_content grid_content">
                                         <div class="product_content_inner">
                                           <center>
-                                            <h1><a href="<?php echo base_url("produk/$post_new2->templates_judul_seo ") ?>"><?php echo $post_new2->templates_judul; ?></a></h1>
+                                            <h3><a href="<?php echo base_url("produk/$post_new2->templates_judul_seo ") ?>"><strong><?php echo $post_new2->templates_judul; ?></a></strong></h3>
                                             <div class="price_box">
                                               <?php
                                               if(empty($post_new2->templates_harga_diskon)) { ?>
-                                                <span class="current_price">Rp<?php echo number_format($post_new2->templates_harga,0,',','.')?></span>
+                                                <span class="current_price">Rp<?php echo number_format($post_new2->templates_harga,0,',','.')?> /hari</span>
                                               <?php
                                             }else if($a = $post_new2->templates_harga - ($post_new2->templates_harga * ($post_new2->templates_harga_diskon/100))){?>
                                               <span class="old_price">Rp<?php echo number_format($post_new2->templates_harga,0,',','.')?></span><span class="current_price">Rp<?php echo number_format($a,0,',','.')?></span>
@@ -130,11 +130,13 @@
                                           </center>
                                         </div>
                                         <div class="action_links">
+                                          <center>
                                              <ul>
-                                                <li class="add_to_cart"><a href="cart.html" title="Add to cart">Add to cart</a></li>
-                                                <li class="wishlist"><a href="wishlist.html"  title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                                <li class="compare"><a href="#" title="Add to Compare"><i class="icon-rotate-cw"></i></a></li>
+                                                <li class="add_to_cart"><a href="<?php echo base_url("produk/$post_new2->templates_judul_seo ") ?>">Selengkapnya</a></li>
+                                                <li class="add_to_sewa"><a href="https://api.whatsapp.com/send?phone=<?php echo $identitas->whatsapp?>&text= Halo ka.. Mau sewa <?php echo $post_new2->templates_judul; ?> | <?php echo base_url(); ?>produk/<?php echo $post_new2->templates_judul_seo ?> untuk acara kami bisa?"  >Pilih Sewa</a></li>
+
                                             </ul>
+                                            </center>
                                         </div>
                                     </div>
                                 </figure>

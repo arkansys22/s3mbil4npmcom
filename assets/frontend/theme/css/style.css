@@ -3831,10 +3831,27 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
-  background: #C70909;
-  color: #ffffff;
+  background: #d2d0d0;
+  color: #000000;
 }
 .action_links ul li.add_to_cart a:hover {
+  background: #999;
+  color: #ffffff;
+}
+
+.action_links ul li.add_to_sewa a {
+  padding: 0 26px;
+  height: 40px;
+  line-height: 40px;
+  width: auto;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: #c70909;
+  color: #ffffff;
+}
+.action_links ul li.add_to_sewa a:hover {
   background: #999;
   color: #ffffff;
 }
