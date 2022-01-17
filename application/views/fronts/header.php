@@ -98,7 +98,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2 col-md-4 col-sm-4 col-4">
                         <div class="logo">
-                            <a href="<?php echo base_url()?>"><img src="<?php echo base_url()?>bahan/backend/foto/<?php echo $identitas->logo?>" alt=""></a>
+                            <a href="<?php echo base_url()?>"><img src="<?php echo base_url()?>assets/frontend/campur/<?php echo $identitas->logo?>" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-10 col-md-6 col-sm-6 col-6">
