@@ -168,7 +168,7 @@
                                       <ul class="sub_menu pages">
                                         <li><a href="#">Akun Saya</a></li>
                                         <li><a href="#">Pesanan Saya</a></li>
-                                        <li><a href="<?php echo base_url()?>paneladmin/logout">Logout</a></li>
+                                        <li><a href="<?php echo base_url()?>aspanel/logout">Logout</a></li>
 
                                       </ul>
                                   </li>
