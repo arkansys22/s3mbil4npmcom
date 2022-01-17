@@ -102,7 +102,7 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="<?php echo base_url("produk/$post_new2->templates_judul_seo ") ?>"><img src="<?php echo base_url()?>assets/frontend/produk/<?php echo $post_new2->templates_gambar; ?>" alt=""></a>
+                                        <a class="primary_img" href="<?php echo base_url("produk/$post_new2->templates_judul_seo ") ?>"><img src="<?php echo base_url()?>assets/frontend/produk/<?php echo $post_new2->templates_gambar; ?>" height="1000px" width="1000px" alt=""></a>
                                         <div class="label_product">
                                           <?php
                                           if(empty($post_new2->templates_harga_diskon)) { ?>
