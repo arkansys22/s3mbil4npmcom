@@ -106,7 +106,7 @@
                             <div class="search_container">
                                 <form action="#">
                                     <div class="search_box">
-                                        <input placeholder="Cari koleksi batik..." type="text">
+                                        <input placeholder="Mau sewa apa hari ini?" type="text">
                                         <button type="submit">Cari</button>
                                     </div>
                                 </form>
@@ -292,7 +292,7 @@
                             <div class="search_container">
                                 <form action="#">
                                     <div class="search_box">
-                                        <input placeholder="Cari koleksi batik..." type="text">
+                                        <input placeholder="Mau sewa apa hari ini?" type="text">
                                         <button type="submit">Cari</button>
                                     </div>
                                 </form>
