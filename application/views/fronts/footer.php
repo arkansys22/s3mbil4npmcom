@@ -11,7 +11,7 @@
                     <div class="logo">
                         <a href="<?php echo base_url()?>"><img src="<?php echo base_url()?>assets/frontend/campur/<?php echo $identitas->logo?>" alt=""></a>
                     </div>
-                    <br>                    
+                    <br>
                       <div class="footer_contact">
                           <p style="color:white; font-size:20px">IKUTI KAMI</p>
                           <div class="footer_social">
@@ -58,10 +58,11 @@
             </div>
         </div>
     </div>
-    <div class="footer_bottom">
+    <div class="footer_bottom ">
         <div class="container">
+          <center>
             <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-12 col-md-12">
                     <div class="copyright_area">
                         <p>Copyright &copy; 2022 <a href="#"><?php echo $identitas->nama_website?></a> | Development by <a href="https://www.crudbiz.com">Crudbiz</a> All Right Reserve
                     </div>
@@ -72,6 +73,7 @@
                     </div>
                 </div>
             </div>
+          </center>
         </div>
     </div>
 </footer>
