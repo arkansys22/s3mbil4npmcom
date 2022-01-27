@@ -43,9 +43,7 @@
       </div>
   </section>
   <!--slider area end-->
-  <!--shipping area start-->
 
-  <!--shipping area end-->
 
     <!--shop  area start-->
     <div class="shop_area shop_fullwidth">
@@ -54,7 +52,7 @@
               <div class="shipping_inner">
                 <div class="single_shipping">
                     <div class="shipping_icone">
-                        <img src="assets/img/about/shipping6.png" alt="">
+                        <img src="<?php echo base_url()?>assets/frontend/theme/img/about/shipping6.png" alt="">
                     </div>
                     <div class="shipping_content">
                         <h4>Gratis Konsultasi</h4>
@@ -63,7 +61,7 @@
                 </div>
                 <div class="single_shipping">
                     <div class="shipping_icone">
-                        <img src="assets/img/about/shipping7.png" alt="">
+                        <img src="<?php echo base_url()?>assets/frontend/theme/img/about/shipping7.png" alt="">
                     </div>
                     <div class="shipping_content">
                         <h4>Gratis Ongkos Kirim</h4>
@@ -72,7 +70,7 @@
                 </div>
                 <div class="single_shipping">
                     <div class="shipping_icone">
-                        <img src="assets/img/about/shipping8.png" alt="">
+                        <img src="<?php echo base_url()?>assets/frontend/theme/img/about/shipping8.png" alt="">
                     </div>
                     <div class="shipping_content">
                         <h4>Jaminan Kepuasan</h4>
@@ -81,7 +79,16 @@
                 </div>
                 <div class="single_shipping">
                     <div class="shipping_icone">
-                        <img src="assets/img/about/shipping10.png" alt="">
+                        <img src="<?php echo base_url()?>assets/frontend/theme/img/about/shipping10.png" alt="">
+                    </div>
+                    <div class="shipping_content">
+                        <h4>Layanan 24/7 Jam</h4>
+                        <p>Technical Support 24 Jam</p>
+                    </div>
+                </div>
+                <div class="single_shipping">
+                    <div class="shipping_icone">
+                        <img src="<?php echo base_url()?>assets/frontend/theme/img/about/shipping10.png" alt="">
                     </div>
                     <div class="shipping_content">
                         <h4>Layanan 24/7 Jam</h4>
@@ -91,6 +98,7 @@
               </div>
           </div>
       </div>
+
         <div class="container">
             <h1><center>Produk Sewa Pilihan</center></h1>
             <br><br>
@@ -150,6 +158,45 @@
                 </div>
             </div>
         </div>
+        <section class="slider_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="slider_area slider_carousel owl-carousel">
+                            <div class="single_slider d-flex align-items-center" >
+                              <img src="<?php echo base_url()?>assets/frontend/campur/1-1.png" alt="">
+                            </div>
+                            <div class="single_slider d-flex align-items-center" >
+                              <img src="<?php echo base_url()?>assets/frontend/campur/2-1.png" alt="">
+                            </div>
+                            <div class="single_slider d-flex align-items-center" >
+                              <img src="<?php echo base_url()?>assets/frontend/campur/3-2.png" alt="">
+                            </div>
+                            <div class="single_slider d-flex align-items-center" >
+                              <img src="<?php echo base_url()?>assets/frontend/campur/4-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="product_d_info">
+          <h3><center>Mereka Yang Percaya</center></h3>
+          <div class="row">
+              <br>
+                <div class="col-4">
+                      <a href="#"><img src="<?php echo base_url()?>assets/frontend/theme/img/brand/brand1.jpg" alt=""></a>
+                </div>
+                <div class="col-4">
+                      <a href="#"><img src="<?php echo base_url()?>assets/frontend/theme/img/brand/brand1.jpg" alt=""></a>
+                </div>
+                <div class="col-4">
+                      <a href="#"><img src="<?php echo base_url()?>assets/frontend/theme/img/brand/brand1.jpg" alt=""></a>
+                </div>
+
+          </div>
+        </div>
+        <br><br>
     </div>
     <!--shop  area end-->
 

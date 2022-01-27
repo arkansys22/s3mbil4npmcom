@@ -170,6 +170,26 @@
           </div>
           <!--product info end-->
 
+
+
+              <div class="product_d_info">
+                <h3><center>Mereka Yang Percaya</center></h3>
+                <div class="row">
+                    <br>
+                      <div class="col-4">
+                            <a href="#"><img src="<?php echo base_url()?>assets/frontend/theme/img/brand/brand1.jpg" alt=""></a>
+                      </div>
+                      <div class="col-4">
+                            <a href="#"><img src="<?php echo base_url()?>assets/frontend/theme/img/brand/brand1.jpg" alt=""></a>
+                      </div>
+                      <div class="col-4">
+                            <a href="#"><img src="<?php echo base_url()?>assets/frontend/theme/img/brand/brand1.jpg" alt=""></a>
+                      </div>
+
+                </div>
+              </div>
+              <br><br>
+          </div>
       </div>
   </div>
 

@@ -6,21 +6,17 @@
               <div class="col-lg-1">
 
               </div>
-              <div class="col-lg-3">
+              <div class="col-lg-4">
                   <div class="widgets_container">
-                      <h3>CONTACT INFO</h3>
+                    <div class="logo">
+                        <a href="<?php echo base_url()?>"><img src="<?php echo base_url()?>assets/frontend/campur/<?php echo $identitas->logo?>" alt=""></a>
+                    </div>
+                    <br>
+                    <p style="color:white; font-size:20px">TENTANG KAMI</p>
                       <div class="footer_contact">
-                         <div class="footer_contact_inner">
-                              <div class="contact_icone">
-                                  <img src="<?php echo base_url()?>bahan/frontend/img/icon/icon-phone.png" alt="">
-                              </div>
-                              <div class="contact_text">
-                                  <p>Hotline Free 24/24: <br> <strong><a href="tel:+<?php echo $identitas->no_telp?>"><?php echo $identitas->no_telp?></a> </strong></p>
-                              </div>
-                          </div>
-                          <p><?php echo $identitas->meta_deskripsi?></p>
-                          <p><?php echo $identitas->alamat?></p>
-                          <p><?php echo $identitas->email?></p>
+                          <p><a href="">FAQ</a></p>
+                          <p><a href="">SYARAT & KETENTUAN</a></p>
+                          <p style="color:white; font-size:20px">IKUTI KAMI</p>
                           <div class="footer_social">
                              <ul>
                                  <li><a class="facebook" href="<?php echo $identitas->facebook?>"><i class="icon-facebook"></i></a></li>
@@ -31,40 +27,34 @@
                       </div>
                   </div>
               </div>
-              <div class="col-lg-8">
+              <div class="col-lg-3">
                  <div class="footer_col_container">
-                      <div class="widgets_container widget_menu">
-                          <h3>Layanan Pelanggan</h3>
-                          <div class="footer_menu">
-                              <ul>
-                                  <li><a href="#">Cara Pemesanan</a></li>
-                                  <li><a href="#">Konfirmasi Pembayaran</a></li>
-                                  <li><a href="#">Lacak Pengiriman</a></li>
+                          <p style="color:white; font-size:20px">HUBUNGI KAMI</p>
+                          <div class="footer_contact">
+                            <p><?php echo $identitas->alamat?></p>
+                            <br>
+                          </div>
+                          <div class="footer_contact_inner">
+                               <div class="contact_icone">
+                                   <img src="<?php echo base_url()?>assets/frontend/theme/img/icon/icon-phone.png" alt="">
+                               </div>
+                               <div class="contact_text">
+                                   <p>Hotline Free 7/24: <br> <strong><a href="tel:+<?php echo $identitas->no_telp?>"><?php echo $identitas->no_telp?></a> </strong></p>
+                               </div>
+                           </div>
+                           <div class="footer_contact">
+                             <p><?php echo $identitas->email?></p>
+                             <br>
+                           </div>
 
-                              </ul>
-                          </div>
-                      </div>
-                      <div class="widgets_container widget_menu">
-                          <h3>Bisnis Informasi</h3>
-                          <div class="footer_menu">
-                              <ul>
-                                  <li><a href="#">Tentang Kami</a></li>
-                                  <li><a href="#">Reseller</a></li>
-                                  <li><a href="#">Karir</a></li>
-                              </ul>
-                          </div>
-                      </div>
-                      <div class="widgets_container widget_menu">
-                          <h3>Extras</h3>
-                          <div class="footer_menu">
-                              <ul>
-                                  <li><a href="#">Garansi</a></li>
-                                  <li><a href="#">FAQs</a></li>
-                                  <li><a href="#">Artikel</a></li>
-                              </ul>
-                          </div>
-                      </div>
                   </div>
+              </div>
+              <div class="col-lg-4">
+                       <p style="color:white; font-size:20px">SISTEM PEMBAYARAN</p>
+                       <img src="<?php echo base_url()?>assets/frontend/campur/payment.png" />
+
+
+
               </div>
 
 
