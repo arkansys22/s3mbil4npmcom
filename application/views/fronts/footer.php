@@ -12,6 +12,7 @@
                         <a href="<?php echo base_url()?>"><img src="<?php echo base_url()?>assets/frontend/campur/<?php echo $identitas->logo?>" alt=""></a>
                     </div>
                     <br>                    
+                      <div class="footer_contact">
                           <p style="color:white; font-size:20px">IKUTI KAMI</p>
                           <div class="footer_social">
                              <ul>
