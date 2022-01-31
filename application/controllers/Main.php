@@ -29,7 +29,7 @@ class Main extends CI_Controller {
 			$data['posts_templates_category']= $this->Crud_m->view_one_limit('templates_category','templates_cat_status','templates_cat_id','ASC',$dari,'10');
       $data['posts_sliders'] = $this->Crud_m->view_one_limit('slider','slider_status','slider_id','DESC',$dari,$config['per_page_slider']);
 
-      $data['posts_templates'] = $this->Crud_m->view_join_where_publish('templates','templates_category','templates_cat_id','templates_status','templates_id','RANDOM',$dari,'12');
+      $data['posts_templates'] = $this->Crud_m->view_join_where_publish('templates','templates_category','templates_cat_id','templates_status','templates_id','RANDOM',$dari,'40');
       $data['posts_blogs'] = $this->Crud_m->view_where_order('blogs',array('blogs_status'=>'publish'),'blogs_id','desc');
       $data['posts_note'] = $this->Crud_m->view_where_order('note',array('note_status'=>'publish'),'note_id','asc');
 
