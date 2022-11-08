@@ -84,13 +84,13 @@
                                   <span class="old_price">Rp. <?php echo number_format($posts->templates_harga,0,',','.')?></span>
                                   <span class="current_price">Rp. <?= number_format($harga_disc,0,',','.') ?></span>
                                   <div class="countdown_text">
-                                      <p><span>Beli Sekarang !</span> Promo berakhir pada:</p>
+                                      <p><span>Beli Sekarang !</span></p>
                                   </div>
                                   <input type="hidden" name="products_harga_disc" value="<?php echo $harga_disc ?>">
                                   <input type="hidden" name="products_harga" value="<?php echo $posts->templates_harga ?>">
-                                  <div class="product_timing">
-                                      <div data-countdown="<?php echo $posts->templates_diskon_end ?>"></div>
-                                  </div>
+                                  <!-- <div class="product_timing">
+                                      <div data-countdown=""></div>
+                                  </div> -->
                                 <?php } ?>
 
 
@@ -99,9 +99,10 @@
                                   <p><?php echo $posts->templates_desk ?></p>
                               </div>
                               <div class="product_variant quantity">
-                                  <label>Jumlah</label>
-                                  <input min="1" max="1000" type="number" name="quantity" required>
-                                  <button class="add_cart button" type="submit">Pesan Sekarang</button>
+                                  <!-- <label>Jumlah</label>
+                                  <input min="1" max="1000" type="number" name="quantity"> -->
+                                  <li class="button"><a href="https://api.whatsapp.com/send?phone=<?php echo $identitas->whatsapp?>&text= Halo ka.. Mau sewa <?php echo $posts->templates_judul; ?> | <?php echo base_url(); ?>produk/<?php echo $posts->templates_judul_seo ?> untuk acara kami bisa?"  >Pilih Sewa</a></li>
+                           
 
                               </div>
                               <div class="product_meta">

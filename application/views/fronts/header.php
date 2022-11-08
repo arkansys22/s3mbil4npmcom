@@ -346,12 +346,12 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <!-- <div class="col-lg-3">
                         <div class="call_support text-right">
                             <p><span><a href="<?php echo base_url()?>login">LOGIN</a></span> | <span><a href="<?php echo base_url()?>register">DAFTAR</a></span> | <span><a href="<?php echo base_url()?>cart">KERANJANG BELANJA</a></span></p>
 
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
