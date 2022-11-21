@@ -84,7 +84,7 @@
                                   <span class="old_price">Rp. <?php echo number_format($posts->templates_harga,0,',','.')?></span>
                                   <span class="current_price">Rp. <?= number_format($harga_disc,0,',','.') ?></span>
                                   <div class="countdown_text">
-                                      <p><span>Beli Sekarang !</span></p>
+                                      <p><span>Rental Sekarang !</span></p>
                                   </div>
                                   <input type="hidden" name="products_harga_disc" value="<?php echo $harga_disc ?>">
                                   <input type="hidden" name="products_harga" value="<?php echo $posts->templates_harga ?>">
@@ -102,7 +102,7 @@
                                   <!-- <label>Jumlah</label>
                                   <input min="1" max="1000" type="number" name="quantity"> -->
                                   <li class="button"><a href="https://api.whatsapp.com/send?phone=<?php echo $identitas->whatsapp?>&text= Halo ka.. Mau sewa <?php echo $posts->templates_judul; ?> | <?php echo base_url(); ?>produk/<?php echo $posts->templates_judul_seo ?> untuk acara kami bisa?"  >Pilih Sewa</a></li>
-                           
+
 
                               </div>
                               <div class="product_meta">
